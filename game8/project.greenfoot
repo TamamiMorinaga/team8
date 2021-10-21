@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.bom.image=bomb.png
 class.king.image=yellow-draught-king.png
 class.kumatyan.image=wombat.png
 class.potato.image=chips-1.png
@@ -61,5 +62,5 @@ target5.y=0
 version=3.0.0
 width=932
 world.lastInstantiated=MyWorld
-xPosition=549
-yPosition=103
+xPosition=242
+yPosition=101
