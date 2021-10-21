@@ -1,0 +1,4 @@
+git add .
+git commit -m "project.greenfootC³"
+git pull --no-edit
+git push
