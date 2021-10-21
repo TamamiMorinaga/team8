@@ -1,5 +1,4 @@
 #Greenfoot project file
-class.bom.image=bomb.png
 class.kumatyan.image=wombat.png
 class.potato.image=chips-1.png
 editor.fx.0.height=0
@@ -52,7 +51,7 @@ target4.width=80
 target4.x=0
 target4.y=0
 version=3.0.0
-width=1015
+width=932
 world.lastInstantiated=MyWorld
-xPosition=346
-yPosition=182
+xPosition=0
+yPosition=326
