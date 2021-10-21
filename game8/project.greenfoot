@@ -1,11 +1,12 @@
 #Greenfoot project file
+class.bom.image=bomb.png
 class.king.image=yellow-draught-king.png
 class.kumatyan.image=wombat.png
 class.potato.image=chips-1.png
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=200
+editor.fx.0.y=95
 height=630
 package.numDependencies=0
 package.numTargets=5
@@ -61,5 +62,5 @@ target5.y=0
 version=3.0.0
 width=932
 world.lastInstantiated=MyWorld
-xPosition=549
-yPosition=103
+xPosition=242
+yPosition=101
