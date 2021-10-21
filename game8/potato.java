@@ -14,8 +14,8 @@ public class potato extends Actor
      */
     public void act() 
     {
-        if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(-90);
+        if( Greenfoot.isKeyDown( "left" ) ){
+        setRotation(0);
         move(1);
         }
     }    
