@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.bom.image=bomb.png
 class.king.image=yellow-draught-king.png
 class.kumatyan.image=wombat.png
 class.potato.image=chips-1.png
