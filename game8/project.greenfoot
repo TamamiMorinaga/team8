@@ -1,24 +1,18 @@
 #Greenfoot project file
 class.bom.image=bomb.png
+class.enemi.image=\u30A8\u30CD\u30DF\u30FC\ \ (1).png
+class.enemi2.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.king.image=yellow-draught-king.png
 class.kumatyan.image=wombat.png
 class.potato.image=chips-1.png
-<<<<<<< HEAD
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=630
-=======
 class.you.image=famiconhuu2.png
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=410
-editor.fx.0.y=135
+editor.fx.0.x=177
+editor.fx.0.y=131
 height=718
->>>>>>> 5183bd0380383f382a6247a2a396e007cb7e077a
 package.numDependencies=0
-package.numTargets=5
+package.numTargets=8
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -62,19 +56,35 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
-target5.name=MyWorld
+target5.name=enemi
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
+target6.height=50
+target6.name=enemi2
+target6.showInterface=false
+target6.type=ClassTarget
+target6.width=80
+target6.x=0
+target6.y=0
+target7.height=50
+target7.name=MyWorld
+target7.showInterface=false
+target7.type=ClassTarget
+target7.width=80
+target7.x=0
+target7.y=0
+target8.height=50
+target8.name=you
+target8.showInterface=false
+target8.type=ClassTarget
+target8.width=80
+target8.x=0
+target8.y=0
 version=3.0.0
 width=932
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=405
-yPosition=123
-=======
-xPosition=0
-yPosition=194
->>>>>>> 5183bd0380383f382a6247a2a396e007cb7e077a
+xPosition=132
+yPosition=141
