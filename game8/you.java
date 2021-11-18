@@ -1,91 +1,103 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
+/**
+ * Write a description of class you here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
 public class you extends Actor
 {
-    private boolean movingleft = false; // 画像が右向きの場合は false をセット
-    private int vSpeed = 0; //current vertical speed
-    private int acceleration = 2;
-
-    private boolean jumping = false;
-
+    final int speed_jump = 5;
+    final int speed_gravity = 5;
+    final int speed_lr = 5;
+    final int height_jump = 150;
+    final int offset_x = 20;
+    final int offset_y = 10;
+        
+    int jumping = 0;
+    boolean up_pressed = false;
+    //private boolean movingleft = false;
+    
     public void act()
     {
-        checkKeys();
-        checkFall();
-        onGround();
-    }
-
-    public void checkKeys()
-    {
-        int x = getX(); 
+        int x = getX();
         int y = getY();
+        int w = getImage().getWidth();
+        int h = getImage().getHeight();
+        int dx = 0;
+        int dy = 0;        
+        boolean grounded = false;
 
-        if( Greenfoot.isKeyDown( "left" ) ){
-            //左
-            if( ! movingleft ){
-                movingleft = true;
-                getImage().mirrorHorizontally();
+        // 接地判定
+        if( jumping == 0 ){
+            Actor block = getOneObjectAtOffset(-offset_x,h/2,brock.class);
+            if( block == null ) block = getOneObjectAtOffset(offset_x,h/2,brock.class);
+            if( block != null ) grounded = true;
+        }
+        
+        // キー入力
+        if( Greenfoot.isKeyDown( "left" ) )dx = -speed_lr;
+        if( Greenfoot.isKeyDown( "right" ) )dx = speed_lr;
+        if( Greenfoot.isKeyDown( "up" ) ){
+            if( !up_pressed ){
+                up_pressed = true;
+                if( grounded ) jumping = height_jump/speed_jump;
             }
-            setLocation( x-5,y );
         }
-        if( Greenfoot.isKeyDown( "right" ) ){
-            //右
-            if( movingleft ){
-                movingleft = false;
-                getImage().mirrorHorizontally();
+        else up_pressed = false;            
+
+        // 上下移動
+        if( jumping > 0 ){
+            dy = -speed_jump;
+            --jumping;
+        }
+        else if( !grounded ){
+            dy = speed_gravity;
+        }
+
+        // ブロックとの衝突判定
+        if( dy < 0 ){
+            Actor block = getOneObjectAtOffset(-offset_x,-h/2+dy,brock.class);
+            if( block == null ) block = getOneObjectAtOffset(offset_x,-h/2+dy,brock.class);
+            if( block != null ){
+                int by = block.getY();
+                int bh = block.getImage().getHeight();
+                dy = (by+bh/2)-(y-h/2);
+                jumping = 0;
             }
-            setLocation( x+5,y );
         }
-        if (Greenfoot.isKeyDown("up") && jumping == false){
-            //上
-            setLocation( x,y-2 ); 
-            jump();
-        }
-
-        if( Greenfoot.isKeyDown( "left" ) && Greenfoot.isKeyDown("up") && jumping == false){
-            //左と上
-            if( ! movingleft ){
-                movingleft = true;
-                getImage().mirrorHorizontally();
+        if( dy > 0 ){
+            Actor block = getOneObjectAtOffset(-offset_x,h/2+dy,brock.class);
+            if( block == null ) block = getOneObjectAtOffset(offset_x,h/2+dy,brock.class);
+            if( block != null ){   
+                int by = block.getY();
+                int bh = block.getImage().getHeight();
+                dy = (by-bh/2)-(y+h/2);
+            } 
+        } 
+        if( dx < 0 ){
+            Actor block = getOneObjectAtOffset(-w/2+dx,-offset_y+dy,brock.class);
+            if( block == null ) block = getOneObjectAtOffset(-w/2+dx,offset_y+dy,brock.class);
+            if( block != null ){
+                int bx = block.getX();
+                int bw = block.getImage().getWidth();
+                dx = (bx+bw/2)-(x-w/2);
             }
-            setLocation( x-5,y-2 );
-            jump();
         }
-        if( Greenfoot.isKeyDown( "right" ) && Greenfoot.isKeyDown("up") && jumping == false){
-            //右と上
-            if( movingleft ){
-                movingleft = false;
-                getImage().mirrorHorizontally();
+        if( dx > 0 ){
+            Actor block = getOneObjectAtOffset(w/2+dx,-offset_y+dy,brock.class);
+            if( block == null ) block = getOneObjectAtOffset(w/2+dx,offset_y+dy,brock.class);
+            if( block != null ){
+                int bx = block.getX();
+                int bw = block.getImage().getWidth();
+                dx = (bx-bw/2)-(x+w/2);
             }
-            setLocation( x+5,y-2 );
-            jump();
         }
+        
+        setLocation( x+dx, y+dy );
+        /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+        getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+    }  
 
-    } 
-
-    public void checkFall(){
-        if(onGround()){
-        }
-        else{ 
-            fall();
-        }     
-    }
-
-    public boolean onGround(){
-        Actor unter = getOneObjectAtOffset( 0, getImage().getHeight()/2, MyWorld.class );
-        return unter != null;
-    }
-
-    public void jump(){
-        vSpeed = -8;
-        jumping = true;
-        //fall();
-    }
-
-    public void fall(){
-        setLocation( getX(), getY() + vSpeed);
-        vSpeed = vSpeed + acceleration;
-        jumping = false;
-
-    }
 }
