@@ -1,3 +1,4 @@
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -46,6 +47,14 @@ public class MyWorld extends World
     addObject( new enemi3(), 400, 261 );
     addObject( new enemi2(), 250, 161 );
     addObject( new enemi4(), 50, 61 );
+    addObject( new toge(), 200, 215 );
+    addObject( new toge(), 350, 215 );
+    addObject( new toge(), 25, 115 );
+    addObject( new toge(), 175, 115 );
+    addObject( new toge(), 255, 115 );
+    addObject( new toge(), 325, 115 );
+    addObject( new toge(), 475, 115 );
+    addObject( new toge(), 505, 115 );
                 
     }
     
