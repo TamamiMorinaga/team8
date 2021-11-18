@@ -30,57 +30,19 @@ dependency5.type=UsesDependency
 dependency6.from=MyWorld
 dependency6.to=enemi4
 dependency6.type=UsesDependency
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-dependency7.from=you
-dependency7.to=brock
-<<<<<<< HEAD
-dependency7.type=UsesDependency
-=======
-dependency7.type=UsesDependency
-=======
->>>>>>> af8e9c870326e9e43187cddc300964d2cfc34b8f
 dependency7.from=MyWorld
 dependency7.to=toge
 dependency7.type=UsesDependency
 dependency8.from=you
 dependency8.to=brock
 dependency8.type=UsesDependency
-<<<<<<< HEAD
-=======
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=434
-editor.fx.0.y=162
-height=718
+editor.fx.0.x=683
+editor.fx.0.y=186
+height=1047
 package.numDependencies=8
 package.numTargets=13
-=======
->>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
->>>>>>> a3e026a2a4c40d2f7f7394559fd3a9258fa8d298
->>>>>>> db44a64df2e65ed73b6e1749132da81b1801459e
->>>>>>> af8e9c870326e9e43187cddc300964d2cfc34b8f
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=718
-<<<<<<< HEAD
-package.numDependencies=8
-package.numTargets=13
-=======
-package.numDependencies=7
-package.numTargets=12
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
->>>>>>> c119eb48cfa9524774e0f8ab3400ccf1d91d7ac7
->>>>>>> a3e026a2a4c40d2f7f7394559fd3a9258fa8d298
->>>>>>> db44a64df2e65ed73b6e1749132da81b1801459e
->>>>>>> af8e9c870326e9e43187cddc300964d2cfc34b8f
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -187,39 +149,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-width=932
+width=974
 world.lastInstantiated=MyWorld
-xPosition=104
-yPosition=342
-=======
-<<<<<<< HEAD
-width=866
-world.lastInstantiated=MyWorld
-xPosition=391
-yPosition=256
-=======
->>>>>>> a3e026a2a4c40d2f7f7394559fd3a9258fa8d298
->>>>>>> db44a64df2e65ed73b6e1749132da81b1801459e
->>>>>>> af8e9c870326e9e43187cddc300964d2cfc34b8f
-width=932
-world.lastInstantiated=MyWorld
-xPosition=849
-yPosition=154
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
->>>>>>> c119eb48cfa9524774e0f8ab3400ccf1d91d7ac7
->>>>>>> a3e026a2a4c40d2f7f7394559fd3a9258fa8d298
->>>>>>> db44a64df2e65ed73b6e1749132da81b1801459e
->>>>>>> af8e9c870326e9e43187cddc300964d2cfc34b8f
+xPosition=0
+yPosition=0
