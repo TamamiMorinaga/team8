@@ -19,8 +19,34 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        
-        addObject( new you(), 15, 385 );
+        int i;
+        int j;
+        for(i = 0; i < 20; i++ ){
+         j = i * 30 + 15;
+    addObject( new brock(), j, 385 );
+       
+    }
+     for(i = 0; i < 20; i++ ){
+         j = i * 30 + 15;
+    addObject( new brock(), j, 285 );
+       
+    }
+     for(i = 0; i < 20; i++ ){
+         j = i * 30 + 15;
+    addObject( new brock(), j, 185 );
+       
+    }
+     for(i = 0; i < 20; i++ ){
+         j = i * 30 + 15;
+    addObject( new brock(), j, 85 );
+       
+    }
+    addObject( new you(), 15, 355 );
+    addObject( new enemi2(), 150, 361 );
+    addObject( new enemi2(), 400, 261 );
+    addObject( new enemi2(), 250, 161 );
+    addObject( new enemi2(), 50, 61 );
+                
     }
     
     public void act(){
