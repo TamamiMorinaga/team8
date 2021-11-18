@@ -10,6 +10,7 @@ class.enemy.image=\u30A8\u30CD\u30DF\u30FC\ .png
 class.king.image=yellow-draught-king.png
 class.kumatyan.image=wombat.png
 class.potato.image=chips-1.png
+class.toge.image=\u3068\u3052.png
 class.you.image=famiconhuu2.png
 dependency1.from=MyWorld
 dependency1.to=brock
@@ -29,9 +30,28 @@ dependency5.type=UsesDependency
 dependency6.from=MyWorld
 dependency6.to=enemi4
 dependency6.type=UsesDependency
+<<<<<<< HEAD
 dependency7.from=you
 dependency7.to=brock
 dependency7.type=UsesDependency
+=======
+dependency7.from=MyWorld
+dependency7.to=toge
+dependency7.type=UsesDependency
+<<<<<<< HEAD
+dependency8.from=you
+dependency8.to=MyWorld
+dependency8.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=434
+editor.fx.0.y=162
+height=718
+package.numDependencies=8
+package.numTargets=13
+=======
+>>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
+>>>>>>> a3e026a2a4c40d2f7f7394559fd3a9258fa8d298
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -39,6 +59,11 @@ editor.fx.0.y=0
 height=718
 package.numDependencies=7
 package.numTargets=12
+<<<<<<< HEAD
+=======
+>>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
+>>>>>>> c119eb48cfa9524774e0f8ab3400ccf1d91d7ac7
+>>>>>>> a3e026a2a4c40d2f7f7394559fd3a9258fa8d298
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -61,26 +86,33 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
-target10.name=brock
+target10.name=enemi
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=80
 target10.x=0
 target10.y=0
 target11.height=50
-target11.name=MyWorld
+target11.name=brock
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=80
 target11.x=0
 target11.y=0
 target12.height=50
-target12.name=you
+target12.name=MyWorld
 target12.showInterface=false
 target12.type=ClassTarget
 target12.width=80
 target12.x=0
 target12.y=0
+target13.height=50
+target13.name=you
+target13.showInterface=false
+target13.type=ClassTarget
+target13.width=80
+target13.x=0
+target13.y=0
 target2.height=50
 target2.name=king
 target2.showInterface=false
@@ -117,28 +149,48 @@ target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-target7.name=kumatyan
+target7.name=toge
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
-target8.name=potato
+target8.name=kumatyan
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=80
 target8.x=0
 target8.y=0
 target9.height=50
-target9.name=enemi
+target9.name=potato
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+width=932
+world.lastInstantiated=MyWorld
+xPosition=104
+yPosition=342
+=======
+<<<<<<< HEAD
+width=866
+world.lastInstantiated=MyWorld
+xPosition=391
+yPosition=256
+=======
+>>>>>>> a3e026a2a4c40d2f7f7394559fd3a9258fa8d298
 width=932
 world.lastInstantiated=MyWorld
 xPosition=849
 yPosition=154
+<<<<<<< HEAD
+=======
+>>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
+>>>>>>> c119eb48cfa9524774e0f8ab3400ccf1d91d7ac7
+>>>>>>> a3e026a2a4c40d2f7f7394559fd3a9258fa8d298
