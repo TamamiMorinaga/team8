@@ -17,7 +17,7 @@ public class you extends Actor
         
     int jumping = 0;
     boolean up_pressed = false;
-    //private boolean movingleft = false;
+    private boolean movingleft = false;
     
     public void act()
     {
@@ -37,8 +37,20 @@ public class you extends Actor
         }
         
         // キー入力
-        if( Greenfoot.isKeyDown( "left" ) )dx = -speed_lr;
-        if( Greenfoot.isKeyDown( "right" ) )dx = speed_lr;
+        if( Greenfoot.isKeyDown( "left" ) ){
+            dx = -speed_lr;
+            if( ! movingleft ){
+                movingleft = true;
+                getImage().mirrorHorizontally();
+            }
+        }
+        if( Greenfoot.isKeyDown( "right" ) ){
+            dx = speed_lr;
+            if( movingleft ){
+                movingleft = false;
+                getImage().mirrorHorizontally();
+            }
+        }
         if( Greenfoot.isKeyDown( "up" ) ){
             if( !up_pressed ){
                 up_pressed = true;
