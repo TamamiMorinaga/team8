@@ -27,17 +27,17 @@ public class MyWorld extends World
          addObject( new brock(), j, 385 );
        
         }
-        for(i = 0; i < 20; i++ ){
+        for(i = 0; i < 19; i++ ){
          j = i * 30 + 15;
          addObject( new brock(), j, 285 );
        
         }
-        for(i = 0; i < 20; i++ ){
+        for(i = 1; i < 20; i++ ){
          j = i * 30 + 15;
          addObject( new brock(), j, 185 );
        
         }
-        for(i = 0; i < 20; i++ ){
+        for(i = 0; i < 19; i++ ){
          j = i * 30 + 15;
          addObject( new brock(), j, 85 );
        
