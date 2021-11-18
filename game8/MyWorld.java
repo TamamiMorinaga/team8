@@ -23,29 +23,29 @@ public class MyWorld extends World
         int j;
         for(i = 0; i < 20; i++ ){
          j = i * 30 + 15;
-    addObject( new brock(), j, 385 );
+         addObject( new brock(), j, 385 );
        
-    }
-     for(i = 0; i < 20; i++ ){
+        }
+        for(i = 0; i < 20; i++ ){
          j = i * 30 + 15;
-    addObject( new brock(), j, 285 );
+         addObject( new brock(), j, 285 );
        
-    }
-     for(i = 0; i < 20; i++ ){
+        }
+        for(i = 0; i < 20; i++ ){
          j = i * 30 + 15;
-    addObject( new brock(), j, 185 );
+         addObject( new brock(), j, 185 );
        
-    }
-     for(i = 0; i < 20; i++ ){
+        }
+        for(i = 0; i < 20; i++ ){
          j = i * 30 + 15;
-    addObject( new brock(), j, 85 );
+         addObject( new brock(), j, 85 );
        
-    }
+        }
     addObject( new you(), 15, 355 );
-    addObject( new enemi2(), 150, 361 );
-    addObject( new enemi2(), 400, 261 );
+    addObject( new enemi(), 150, 361 );
+    addObject( new enemi3(), 400, 261 );
     addObject( new enemi2(), 250, 161 );
-    addObject( new enemi2(), 50, 61 );
+    addObject( new enemi4(), 50, 61 );
                 
     }
     
@@ -55,9 +55,9 @@ public class MyWorld extends World
             main_timecount--;
             timecount=timecount+70;
         }
-        showText( ""+main_timecount, 50, 50 );
+        showText( ""+main_timecount, 25, 20 );
         if( main_timecount == 0 ){
-            showText( "TIME OVER", 400, 200 );
+            showText( "TIME OVER", 300, 200 );
             Greenfoot.stop();
         }
     }
