@@ -42,10 +42,10 @@ public class MyWorld extends World
        
         }
     addObject( new you(), 15, 355 );
-    addObject( new enemi2(), 150, 361 );
-    addObject( new enemi2(), 400, 261 );
+    addObject( new enemi(), 150, 361 );
+    addObject( new enemi3(), 400, 261 );
     addObject( new enemi2(), 250, 161 );
-    addObject( new enemi2(), 50, 61 );
+    addObject( new enemi4(), 50, 61 );
                 
     }
     

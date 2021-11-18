@@ -6,10 +6,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class enemi extends Actor
+public class enemi4 extends Actor
 {
      private int main_timecount = 100;
-    private int timecount = 100;
+    private int timecount = 35;
     private boolean movingleft = true;
     /**
      * Act - do whatever the enemi2 wants to do. This method is called whenever
@@ -21,7 +21,7 @@ public class enemi extends Actor
                 timecount--;
         if( timecount == 0 ){
             main_timecount--;
-            timecount=timecount+100;
+            timecount=timecount+35;
         }
        
         int i = 0;
@@ -32,11 +32,11 @@ public class enemi extends Actor
                 getImage().mirrorHorizontally();
             }
         setRotation(0);
-        move(1);
+        move(2);
         }
         if( i == 1 ){
         setRotation(0);
-        move(-1);
+        move(-2);
         if( movingleft ){
                 movingleft = false;
                 getImage().mirrorHorizontally();
