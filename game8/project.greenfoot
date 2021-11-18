@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.MyWorld.image=haikei.jpg
 class.bom.image=bomb.png
 class.brock.image=\u57FA\u672C\u30D6\u30ED\u30C3\u30AF.png
 class.enemi.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
@@ -31,10 +32,17 @@ dependency6.type=UsesDependency
 dependency7.from=you
 dependency7.to=MyWorld
 dependency7.type=UsesDependency
+<<<<<<< HEAD
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=1038
+editor.fx.0.y=171
+=======
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+>>>>>>> aab902bfcd8264d1670d5c89e695d6dc2b58714f
 height=718
 package.numDependencies=7
 package.numTargets=12
@@ -139,5 +147,15 @@ target9.y=0
 version=3.0.0
 width=932
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=595
 yPosition=91
+=======
+<<<<<<< HEAD
+xPosition=115
+yPosition=146
+=======
+xPosition=426
+yPosition=128
+>>>>>>> aab902bfcd8264d1670d5c89e695d6dc2b58714f
+>>>>>>> 3e09c174a7f3b3d560542dde38f3661f4c0592f0
