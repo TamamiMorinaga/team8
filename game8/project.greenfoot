@@ -21,6 +21,11 @@ dependency2.type=UsesDependency
 dependency3.from=MyWorld
 dependency3.to=enemi
 dependency3.type=UsesDependency
+<<<<<<< HEAD
+dependency4.from=you
+dependency4.to=brock
+dependency4.type=UsesDependency
+=======
 dependency4.from=MyWorld
 dependency4.to=enemi3
 dependency4.type=UsesDependency
@@ -33,6 +38,7 @@ dependency6.type=UsesDependency
 dependency7.from=MyWorld
 dependency7.to=toge
 dependency7.type=UsesDependency
+<<<<<<< HEAD
 dependency8.from=you
 dependency8.to=MyWorld
 dependency8.type=UsesDependency
@@ -43,6 +49,22 @@ editor.fx.0.y=162
 height=718
 package.numDependencies=8
 package.numTargets=13
+=======
+>>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+<<<<<<< HEAD
+height=666
+package.numDependencies=4
+package.numTargets=9
+=======
+height=718
+package.numDependencies=7
+package.numTargets=12
+>>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
+>>>>>>> c119eb48cfa9524774e0f8ab3400ccf1d91d7ac7
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -149,7 +171,21 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=932
 world.lastInstantiated=MyWorld
 xPosition=104
 yPosition=342
+=======
+<<<<<<< HEAD
+width=866
+world.lastInstantiated=MyWorld
+xPosition=391
+yPosition=256
+=======
+width=932
+world.lastInstantiated=MyWorld
+xPosition=849
+yPosition=154
+>>>>>>> 9a863ba8006c00fade67e8d3f0558c0b1122fb3f
+>>>>>>> c119eb48cfa9524774e0f8ab3400ccf1d91d7ac7
