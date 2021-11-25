@@ -11,7 +11,7 @@ public class you extends Actor
     final int speed_jump = 5;
     final int speed_gravity = 5;
     final int speed_lr = 5;
-    final int height_jump = 150;
+    final int height_jump = 90;
     final int offset_x = 20;
     final int offset_y = 10;
         
@@ -51,6 +51,17 @@ public class you extends Actor
                 getImage().mirrorHorizontally();
             }
         }
+        /*if( Greenfoot.isKeyDown( "space" ) ){
+            getWorld().addObject( new gun(), getX(), getY() );
+            if( ! movingleft ){
+                movingleft = true;
+                move(5);
+            }
+            if( movingleft ){
+                movingleft = false;
+                 move(-5);
+            }
+        }*/
         if( Greenfoot.isKeyDown( "up" ) ){
             if( !up_pressed ){
                 up_pressed = true;
@@ -72,6 +83,7 @@ public class you extends Actor
         if( dy < 0 ){
             Actor block = getOneObjectAtOffset(-offset_x,-h/2+dy,brock.class);
             if( block == null ) block = getOneObjectAtOffset(offset_x,-h/2+dy,brock.class);
+            if( block == null ) block = getOneObjectAtOffset(0,-h/2+dy,brock.class);
             if( block != null ){
                 int by = block.getY();
                 int bh = block.getImage().getHeight();
