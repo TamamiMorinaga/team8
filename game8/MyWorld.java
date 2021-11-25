@@ -104,7 +104,7 @@ public class MyWorld extends World
         }
         showText( ""+main_timecount, 25, 20 );
         if( main_timecount == 0 ){
-            showText( "TIME OVER", 300, 200 );
+            showText( "GAME OVER", 300, 200 );
             Greenfoot.stop();
         }
     }
