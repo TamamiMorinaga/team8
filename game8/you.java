@@ -11,7 +11,7 @@ public class you extends Actor
     final int speed_jump = 5;
     final int speed_gravity = 5;
     final int speed_lr = 5;
-    final int height_jump = 150;
+    final int height_jump = 90;
     final int offset_x = 20;
     final int offset_y = 10;
         
