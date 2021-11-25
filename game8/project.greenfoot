@@ -6,6 +6,11 @@ class.enemi.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi2.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi3.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi4.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
+class.enemy.image=\u30A8\u30CD\u30DF\u30FC\ .png
+class.gun.image=gun.png
+class.king.image=yellow-draught-king.png
+class.kumatyan.image=wombat.png
+class.potato.image=chips-1.png
 class.toge.image=\u3068\u3052.png
 class.toge2.image=\u3068\u3052.png
 class.you.image=famiconhuu2.png
@@ -19,12 +24,21 @@ dependency3.from=you
 dependency3.to=brock
 dependency3.type=UsesDependency
 editor.fx.0.height=739
+<<<<<<< HEAD
 editor.fx.0.width=1110
 editor.fx.0.x=261
 editor.fx.0.y=105
 height=985
 package.numDependencies=3
 package.numTargets=14
+=======
+editor.fx.0.width=816
+editor.fx.0.x=817
+editor.fx.0.y=120
+height=985
+package.numDependencies=3
+package.numTargets=15
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -47,91 +61,151 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
+<<<<<<< HEAD
 target10.name=potato
+=======
+target10.name=kumatyan
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=80
 target10.x=0
 target10.y=0
 target11.height=50
+<<<<<<< HEAD
 target11.name=enemi
+=======
+target11.name=potato
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=80
 target11.x=0
 target11.y=0
 target12.height=50
+<<<<<<< HEAD
 target12.name=brock
+=======
+target12.name=enemi
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target12.showInterface=false
 target12.type=ClassTarget
 target12.width=80
 target12.x=0
 target12.y=0
 target13.height=50
+<<<<<<< HEAD
 target13.name=MyWorld
+=======
+target13.name=brock
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target13.showInterface=false
 target13.type=ClassTarget
 target13.width=80
 target13.x=0
 target13.y=0
 target14.height=50
+<<<<<<< HEAD
 target14.name=you
+=======
+target14.name=MyWorld
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target14.showInterface=false
 target14.type=ClassTarget
 target14.width=80
 target14.x=0
 target14.y=0
+<<<<<<< HEAD
 target2.height=50
 target2.name=king
+=======
+target15.height=50
+target15.name=you
+target15.showInterface=false
+target15.type=ClassTarget
+target15.width=80
+target15.x=0
+target15.y=0
+target2.height=50
+target2.name=gun
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
 target2.x=0
 target2.y=0
 target3.height=50
+<<<<<<< HEAD
 target3.name=enemy
+=======
+target3.name=king
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
+<<<<<<< HEAD
 target4.name=enemi4
+=======
+target4.name=enemy
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
+<<<<<<< HEAD
 target5.name=enemi3
+=======
+target5.name=enemi4
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
 target6.name=enemi2
+=======
+target6.name=enemi3
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
+<<<<<<< HEAD
 target7.name=toge
+=======
+target7.name=enemi2
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
+<<<<<<< HEAD
 target8.name=toge2
+=======
+target8.name=toge
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=80
 target8.x=0
 target8.y=0
 target9.height=50
+<<<<<<< HEAD
 target9.name=kumatyan
+=======
+target9.name=toge2
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
@@ -141,4 +215,8 @@ version=3.0.0
 width=1445
 world.lastInstantiated=MyWorld
 xPosition=318
+<<<<<<< HEAD
 yPosition=29
+=======
+yPosition=101
+>>>>>>> e8c1a986b0da858a5487a31c56cb52e9b1226913
