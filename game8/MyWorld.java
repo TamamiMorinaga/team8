@@ -52,6 +52,7 @@ public class MyWorld extends World
                     addObject( new brock(), 25+(x*30), 25+(y*30));
                 }
                 
+                
             }
         }
         /*int i;

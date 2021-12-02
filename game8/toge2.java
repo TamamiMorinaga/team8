@@ -25,11 +25,11 @@ public class toge2 extends Actor
         int i = 0;
             i = main_timecount % 2;
         if( i == 0 ){
-        setRotation(90);
+        setRotation(-90);
         move(1);
         }
         if( i == 1 ){
-        setRotation(90);
+        setRotation(-90);
         move(-1);          
         }// Add your action code here.
     }    
