@@ -14,6 +14,6 @@ public class toge extends Actor
      */
     public void act() 
     {
-   // Add your action code here.
+    setRotation(180);// Add your action code here.
     }    
 }
