@@ -23,34 +23,11 @@ dependency2.type=UsesDependency
 dependency3.from=you
 dependency3.to=brock
 dependency3.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-<<<<<<< HEAD
-height=913
-=======
-=======
 editor.fx.0.height=739
-<<<<<<< HEAD
-editor.fx.0.width=926
-editor.fx.0.x=-35
-editor.fx.0.y=163
-height=1047
-=======
-editor.fx.0.width=816
-<<<<<<< HEAD
-editor.fx.0.x=552
-editor.fx.0.y=100
-height=1056
-=======
-editor.fx.0.x=531
-editor.fx.0.y=81
->>>>>>> dea7eb607c1e21f975be35a88f4c94e3af3fe777
+editor.fx.0.width=1036
+editor.fx.0.x=205
+editor.fx.0.y=124
 height=985
->>>>>>> ab43ca6d7610e899d9b422945192f9efb38f6d1e
->>>>>>> b025cf4c36950ca42ec02e5500edcd386d4443c8
->>>>>>> 6b245d6f808c06bf109b13c9b377c3a012080eb4
 package.numDependencies=3
 package.numTargets=15
 project.charset=UTF-8
@@ -173,14 +150,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=1276
-world.lastInstantiated=MyWorld
-xPosition=538
-yPosition=572
-=======
 width=1258
 world.lastInstantiated=MyWorld
-xPosition=669
-yPosition=0
->>>>>>> 6b245d6f808c06bf109b13c9b377c3a012080eb4
+xPosition=260
+yPosition=54
