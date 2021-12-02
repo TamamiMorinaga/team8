@@ -120,21 +120,7 @@ public class you extends Actor
         }
         
         setLocation( x+dx, y+dy );
-        Actor actor = getOneIntersectingObject( enemi.class );
-        if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
-            Greenfoot.stop();
-        }   
-        actor = getOneIntersectingObject( toge.class );
-        if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
-            Greenfoot.stop();
-        }   
-        actor = getOneIntersectingObject( toge2.class );
-        if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
-            Greenfoot.stop();
-        }   
+        
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
