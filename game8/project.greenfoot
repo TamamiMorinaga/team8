@@ -14,20 +14,23 @@ dependency1.from=MyWorld
 dependency1.to=brock
 dependency1.type=UsesDependency
 dependency10.from=you
-dependency10.to=toge2
+dependency10.to=toge
 dependency10.type=UsesDependency
 dependency11.from=you
-dependency11.to=enemi
+dependency11.to=toge2
 dependency11.type=UsesDependency
 dependency12.from=you
-dependency12.to=enemi2
+dependency12.to=enemi
 dependency12.type=UsesDependency
 dependency13.from=you
-dependency13.to=enemi3
+dependency13.to=enemi2
 dependency13.type=UsesDependency
 dependency14.from=you
-dependency14.to=enemi4
+dependency14.to=enemi3
 dependency14.type=UsesDependency
+dependency15.from=you
+dependency15.to=enemi4
+dependency15.type=UsesDependency
 dependency2.from=MyWorld
 dependency2.to=toge
 dependency2.type=UsesDependency
@@ -47,17 +50,31 @@ dependency7.from=MyWorld
 dependency7.to=you
 dependency7.type=UsesDependency
 dependency8.from=you
-dependency8.to=brock
+dependency8.to=MyWorld
 dependency8.type=UsesDependency
 dependency9.from=you
-dependency9.to=toge
+dependency9.to=brock
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+<<<<<<< HEAD
+editor.fx.0.x=802
+editor.fx.0.y=124
+height=985
+package.numDependencies=15
+=======
+editor.fx.0.x=328
+editor.fx.0.y=146
+>>>>>>> 5a6047c1f3f7833e384fdb58312c53710a07c15f
 height=925
 package.numDependencies=14
+>>>>>>> 23eb2834689e126c69e7046fd8d355591c4ef56f
 package.numTargets=15
 project.charset=UTF-8
 publish.hasSource=false
@@ -181,5 +198,10 @@ target9.y=0
 version=3.0.0
 width=1258
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
+xPosition=668
+yPosition=2
+=======
 xPosition=587
 yPosition=111
+>>>>>>> 23eb2834689e126c69e7046fd8d355591c4ef56f
