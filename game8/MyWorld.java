@@ -4,8 +4,6 @@ import greenfoot.core.TextLabel;
 import greenfoot.WorldVisitor;
 import greenfoot.util.GraphicsUtilities;
 import java.util.ArrayList;
-import java.awt.Color;
-import java.awt.Font;
 import java.awt.Graphics2D;
 /**
  * Write a description of class MyWorld here.
