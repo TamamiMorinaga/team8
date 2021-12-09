@@ -5,10 +5,13 @@ import greenfoot.WorldVisitor;
 import greenfoot.util.GraphicsUtilities;
 import java.util.ArrayList;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.awt.Color;
 import java.awt.Font;
 =======
 >>>>>>> e4230a6417d4903368e9eb5613366297612b0b67
+=======
+>>>>>>> 7199fcef17a10c6129b08e4b5a2665c2fe2e821a
 import java.awt.Graphics2D;
 /**
  * Write a description of class MyWorld here.
@@ -104,7 +107,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1050, 700, 1);
+        super(1040, 680, 1);
         //super(700, 500, 1);
                 int map[][] = {
                 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
@@ -157,7 +160,10 @@ public class MyWorld extends World
                 if(map[y][x]==7){
                     addObject( new toge3(), 25+(x*30), 25+(y*30));
                 }
+<<<<<<< HEAD
 >>>>>>> e4230a6417d4903368e9eb5613366297612b0b67
+=======
+>>>>>>> 7199fcef17a10c6129b08e4b5a2665c2fe2e821a
                 
             }
         }
