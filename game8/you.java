@@ -81,9 +81,12 @@ public class you extends Actor
 
         // ブロックとの衝突判定
         if( dy < 0 ){
-            Actor block = getOneObjectAtOffset(-offset_x,-h/2+dy,brock.class);
+            /*Actor block = getOneObjectAtOffset(-offset_x,-h/2+dy,brock.class);
             if( block == null ) block = getOneObjectAtOffset(offset_x,-h/2+dy,brock.class);
-            if( block == null ) block = getOneObjectAtOffset(0,-h/2+dy,brock.class);
+            if( block == null ) block = getOneObjectAtOffset(0,-h/2+dy,brock.class);*/
+            Actor block = getOneObjectAtOffset(0,-h/2+dy,brock.class);
+            //if( block == null ) block = getOneObjectAtOffset(offset_x,-h/2+dy,brock.class);
+            //if( block == null ) block = getOneObjectAtOffset(-offset_x,-h/2+dy,brock.class);
             if( block != null ){
                 int by = block.getY();
                 int bh = block.getImage().getHeight();
