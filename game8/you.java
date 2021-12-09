@@ -19,8 +19,12 @@ public class you extends Actor
     boolean up_pressed = false;
     private boolean movingleft = false;
     
+    
+    
     public void act()
     {
+       //getImage().scale( 25, 25 );
+        
         int x = getX();
         int y = getY();
         int w = getImage().getWidth();
@@ -125,40 +129,44 @@ public class you extends Actor
         setLocation( x+dx, y+dy );
         Actor actor = getOneIntersectingObject( toge.class );
         if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
+            //getWorld().showText( "GAMEOVER", 400,200 );
+            ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
         }   
         actor = getOneIntersectingObject( toge2.class );
         if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
+            //getWorld().showText( "GAMEOVER", 400,200 );
+            ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
      actor = getOneIntersectingObject( enemi.class );
         if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
+            //getWorld().showText( "GAMEOVER", 400,200 );
+            ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
     actor = getOneIntersectingObject( enemi2.class );
         if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
+            //getWorld().showText( "GAMEOVER", 400,200 );
+            ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
     actor = getOneIntersectingObject( enemi3.class );
         if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
+            ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
     actor = getOneIntersectingObject( enemi4.class );
         if( actor != null ){
-            getWorld().showText( "GAMEOVER", 400,200 );
+            ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
