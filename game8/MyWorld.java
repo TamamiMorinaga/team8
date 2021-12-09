@@ -4,6 +4,14 @@ import greenfoot.core.TextLabel;
 import greenfoot.WorldVisitor;
 import greenfoot.util.GraphicsUtilities;
 import java.util.ArrayList;
+<<<<<<< HEAD
+<<<<<<< HEAD
+import java.awt.Color;
+import java.awt.Font;
+=======
+>>>>>>> e4230a6417d4903368e9eb5613366297612b0b67
+=======
+>>>>>>> 7199fcef17a10c6129b08e4b5a2665c2fe2e821a
 import java.awt.Graphics2D;
 /**
  * Write a description of class MyWorld here.
@@ -146,9 +154,16 @@ public class MyWorld extends World
                 if(map[y][x]==6){
                     addObject( new enemi3(), 25+(x*30), 31+(y*30));
                 }
+<<<<<<< HEAD
+                
+=======
                 if(map[y][x]==7){
                     addObject( new toge3(), 25+(x*30), 25+(y*30));
                 }
+<<<<<<< HEAD
+>>>>>>> e4230a6417d4903368e9eb5613366297612b0b67
+=======
+>>>>>>> 7199fcef17a10c6129b08e4b5a2665c2fe2e821a
                 
             }
         }
