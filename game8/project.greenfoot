@@ -57,10 +57,17 @@ dependency9.to=brock
 dependency9.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
+<<<<<<< HEAD
 editor.fx.0.x=802
 editor.fx.0.y=124
 height=985
 package.numDependencies=15
+=======
+editor.fx.0.x=328
+editor.fx.0.y=146
+height=925
+package.numDependencies=14
+>>>>>>> 23eb2834689e126c69e7046fd8d355591c4ef56f
 package.numTargets=15
 project.charset=UTF-8
 publish.hasSource=false
@@ -184,5 +191,10 @@ target9.y=0
 version=3.0.0
 width=1258
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=668
 yPosition=2
+=======
+xPosition=587
+yPosition=111
+>>>>>>> 23eb2834689e126c69e7046fd8d355591c4ef56f
