@@ -59,10 +59,29 @@ dependency8.type=UsesDependency
 dependency9.from=you
 dependency9.to=MyWorld
 dependency9.type=UsesDependency
+<<<<<<< HEAD
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+=======
 editor.fx.0.height=739
+<<<<<<< HEAD
 editor.fx.0.width=975
 editor.fx.0.x=552
 editor.fx.0.y=100
+=======
+editor.fx.0.width=816
+<<<<<<< HEAD
+editor.fx.0.x=802
+editor.fx.0.y=124
+height=985
+package.numDependencies=15
+=======
+editor.fx.0.x=328
+editor.fx.0.y=146
+>>>>>>> 5a6047c1f3f7833e384fdb58312c53710a07c15f
+>>>>>>> 354fee8949941b30623966f425118437e9fe8b73
 height=925
 package.numDependencies=16
 package.numTargets=16
@@ -79,7 +98,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=53
+simulation.speed=48
 target1.height=50
 target1.name=bom
 target1.showInterface=false
