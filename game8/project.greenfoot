@@ -34,14 +34,6 @@ dependency2.type=UsesDependency
 dependency3.from=MyWorld
 dependency3.to=toge2
 dependency3.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=739
-editor.fx.0.width=1036
-editor.fx.0.x=205
-editor.fx.0.y=124
-height=985
-package.numDependencies=3
-=======
 dependency4.from=MyWorld
 dependency4.to=enemi
 dependency4.type=UsesDependency
@@ -62,11 +54,10 @@ dependency9.to=toge
 dependency9.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=630
-editor.fx.0.y=215
-height=985
+editor.fx.0.x=328
+editor.fx.0.y=146
+height=925
 package.numDependencies=14
->>>>>>> 670ec510ba2e6a49b6d49850e412a0f6509a3dc6
 package.numTargets=15
 project.charset=UTF-8
 publish.hasSource=false
@@ -190,10 +181,5 @@ target9.y=0
 version=3.0.0
 width=1258
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=260
-yPosition=54
-=======
-xPosition=669
-yPosition=0
->>>>>>> 670ec510ba2e6a49b6d49850e412a0f6509a3dc6
+xPosition=587
+yPosition=111

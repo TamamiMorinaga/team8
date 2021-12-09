@@ -21,6 +21,8 @@ public class you extends Actor
     
     public void act()
     {
+       //getImage().scale( 25, 25 );
+        
         int x = getX();
         int y = getY();
         int w = getImage().getWidth();
