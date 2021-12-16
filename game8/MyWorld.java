@@ -99,10 +99,12 @@ public class MyWorld extends World
      * Constructor for objects of class MyWorld.
      * 
      */
+    GreenfootSound bgm = null;
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1040, 680, 1);
+        bgm = new GreenfootSound( "19.mp3" );
         //super(700, 500, 1);
                 int map[][] = {
                 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
@@ -196,6 +198,7 @@ public class MyWorld extends World
     }
     
     public void act(){
+        bgm.playLoop();
         timecount--;
         if( timecount == 0 ){
             main_timecount--;
@@ -205,6 +208,7 @@ public class MyWorld extends World
         if( main_timecount == 0 ){
             showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
+            bgm.stop();
         }
     }
 }
