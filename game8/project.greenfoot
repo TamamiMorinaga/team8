@@ -23,6 +23,7 @@ dependency11.type=UsesDependency
 dependency12.from=gun
 dependency12.to=enemi4
 dependency12.type=UsesDependency
+<<<<<<< HEAD
 dependency13.from=enemi4
 dependency13.to=gun
 dependency13.type=UsesDependency
@@ -33,6 +34,18 @@ dependency15.from=enemi2
 dependency15.to=gun
 dependency15.type=UsesDependency
 dependency16.from=enemi
+=======
+dependency13.from=enemi
+dependency13.to=gun
+dependency13.type=UsesDependency
+dependency14.from=enemi4
+dependency14.to=gun
+dependency14.type=UsesDependency
+dependency15.from=enemi3
+dependency15.to=gun
+dependency15.type=UsesDependency
+dependency16.from=enemi2
+>>>>>>> 3ce70ca332c95508782d3b19c1eb1399bea243a8
 dependency16.to=gun
 dependency16.type=UsesDependency
 dependency17.from=brock
@@ -89,6 +102,7 @@ dependency8.type=UsesDependency
 dependency9.from=gun
 dependency9.to=enemi
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=1002
 editor.fx.0.x=552
@@ -96,6 +110,15 @@ editor.fx.0.y=100
 height=925
 package.numDependencies=26
 package.numTargets=16
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=925
+package.numDependencies=26
+package.numTargets=12
+>>>>>>> 3ce70ca332c95508782d3b19c1eb1399bea243a8
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -109,7 +132,11 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+<<<<<<< HEAD
 simulation.speed=100
+=======
+simulation.speed=51
+>>>>>>> 3ce70ca332c95508782d3b19c1eb1399bea243a8
 target1.height=50
 target1.name=bom
 target1.showInterface=false
@@ -223,7 +250,14 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=1326
 world.lastInstantiated=MyWorld
 xPosition=523
 yPosition=61
+=======
+width=1936
+world.lastInstantiated=MyWorld
+xPosition=0
+yPosition=97
+>>>>>>> 3ce70ca332c95508782d3b19c1eb1399bea243a8

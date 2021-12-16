@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class enemi extends Actor
 {
-     private int main_timecount = 100;
+    private int main_timecount = 100;
     private int timecount = 100;
     private boolean movingleft = true;
     /**
@@ -17,39 +17,40 @@ public class enemi extends Actor
      */
     public void act() 
     {
-                // Add your action code here.
-                timecount--;
+        // Add your action code here.
+        timecount--;
         if( timecount == 0 ){
             main_timecount--;
             timecount=timecount+100;
         }
-       
+
         int i = 0;
-            i = main_timecount % 2;
+        i = main_timecount % 2;
         if( i == 0 ){
             if( ! movingleft ){
                 movingleft = true;
                 getImage().mirrorHorizontally();
             }
-        setRotation(0);
-        move(1);
+            setRotation(0);
+            move(1);
         }
         if( i == 1 ){
-        setRotation(0);
-        move(-1);
-        if( movingleft ){
+            setRotation(0);
+            move(-1);
+            if( movingleft ){
                 movingleft = false;
                 getImage().mirrorHorizontally();
             }
-           
+
         }
         
+        //当たり判定
         Actor actor = getOneIntersectingObject( gun.class );
         if( actor != null ){
-               getWorld().removeObject( actor ); 
+            getWorld().removeObject( actor ); 
         }
-    
-       /* setRotation(180);
+
+        /* setRotation(180);
         move(15);*/
     }    
 }
