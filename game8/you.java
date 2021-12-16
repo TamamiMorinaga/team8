@@ -14,17 +14,16 @@ public class you extends Actor
     final int height_jump = 90;
     final int offset_x = 20;
     final int offset_y = 10;
-        
+
     int jumping = 0;
     boolean up_pressed = false;
-    private boolean movingleft = false;
+    public boolean movingleft = false;
     private boolean flag_tama = false;
-    
-    
+
     public void act()
     {
-       //getImage().scale( 25, 25 );
-        
+        //getImage().scale( 25, 25 );
+
         int x = getX();
         int y = getY();
         int w = getImage().getWidth();
@@ -39,7 +38,7 @@ public class you extends Actor
             if( block == null ) block = getOneObjectAtOffset(offset_x,h/2,brock.class);
             if( block != null ) grounded = true;
         }
-        
+
         // キー入力
         if( Greenfoot.isKeyDown( "left" ) ){
             dx = -speed_lr;
@@ -55,7 +54,7 @@ public class you extends Actor
                 getImage().mirrorHorizontally();
             }
         }
-    /////gun/////
+        /////gun/////
         if( Greenfoot.isKeyDown( "space" ) ){
             if( flag_tama == false ){
                 getWorld().addObject( new gun(), getX(), getY() );
@@ -121,7 +120,7 @@ public class you extends Actor
                 dx = (bx-bw/2)-(x+w/2);
             }
         }
-        
+
         setLocation( x+dx, y+dy );
         Actor actor = getOneIntersectingObject( toge.class );
         if( actor != null ){
@@ -134,38 +133,38 @@ public class you extends Actor
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
-        /*getWorld().showText( "grounded: "+grounded, 100, 20 );
-        getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
-    }  
-     actor = getOneIntersectingObject( enemi.class );
+            /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+            getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+        }  
+        actor = getOneIntersectingObject( enemi.class );
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
-        /*getWorld().showText( "grounded: "+grounded, 100, 20 );
-        getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
-    }  
-    actor = getOneIntersectingObject( enemi2.class );
+            /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+            getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+        }  
+        actor = getOneIntersectingObject( enemi2.class );
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
-        /*getWorld().showText( "grounded: "+grounded, 100, 20 );
-        getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
-    }  
-    actor = getOneIntersectingObject( enemi3.class );
+            /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+            getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+        }  
+        actor = getOneIntersectingObject( enemi3.class );
         if( actor != null ){
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
-        /*getWorld().showText( "grounded: "+grounded, 100, 20 );
-        getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
-    }  
-    actor = getOneIntersectingObject( enemi4.class );
+            /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+            getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+        }  
+        actor = getOneIntersectingObject( enemi4.class );
         if( actor != null ){
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
-        /*getWorld().showText( "grounded: "+grounded, 100, 20 );
-        getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
-    }  
-}
+            /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+            getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+        }  
+    }
 }
