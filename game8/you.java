@@ -153,17 +153,20 @@ public class you extends Actor
 
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
-        
-
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
 
+            //bgm.stop();
+        /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+        getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
-    
+    actor = getOneIntersectingObject( enemi2.class );
 
-        actor = getOneIntersectingObject( enemi2.class );
+            /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+            getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+
 
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
