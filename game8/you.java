@@ -166,5 +166,12 @@ public class you extends Actor
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
         }  
+        actor = getOneIntersectingObject( takara.class );
+        if( actor != null ){
+            ((MyWorld)getWorld()).showTextEx( "GAME CLEAR", 300, 200, 64, false, greenfoot.Color.RED);
+            Greenfoot.stop();
+            /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+            getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+        }  
     }
 }
