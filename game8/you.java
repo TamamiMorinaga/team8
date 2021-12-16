@@ -134,34 +134,34 @@ public class you extends Actor
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
-<<<<<<< HEAD
+
             //bgm.stop();
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
      actor = getOneIntersectingObject( enemi.class );
-=======
+
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
         }  
         actor = getOneIntersectingObject( enemi.class );
->>>>>>> 3ce70ca332c95508782d3b19c1eb1399bea243a8
+
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
-<<<<<<< HEAD
+
             //bgm.stop();
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
     actor = getOneIntersectingObject( enemi2.class );
-=======
+
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
         }  
         actor = getOneIntersectingObject( enemi2.class );
->>>>>>> 3ce70ca332c95508782d3b19c1eb1399bea243a8
+
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
