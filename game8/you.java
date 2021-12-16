@@ -143,19 +143,11 @@ public class you extends Actor
 
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
-<<<<<<< HEAD
-        }  
-        actor = getOneIntersectingObject( enemi.class );
-=======
-        
->>>>>>> 0731586dc0dd19fd30563b8df203ec3359d8ff28
-
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
 
-<<<<<<< HEAD
             //bgm.stop();
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
@@ -164,13 +156,7 @@ public class you extends Actor
 
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
-        }  
-=======
-    }  
-    
 
->>>>>>> 0731586dc0dd19fd30563b8df203ec3359d8ff28
-        actor = getOneIntersectingObject( enemi2.class );
 
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
