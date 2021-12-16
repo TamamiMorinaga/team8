@@ -7,7 +7,6 @@ class.enemi2.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi3.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi4.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.gun.image=gun.png
-class.takara.image=\u5B9D\u7BB1_flip.png
 class.toge.image=\u3068\u3052.png
 class.toge2.image=\u3068\u3052.png
 class.toge3.image=\u3068\u3052.png
@@ -102,11 +101,19 @@ dependency8.type=UsesDependency
 dependency9.from=MyWorld
 dependency9.to=you
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=1074
 editor.fx.0.y=98
 height=1047
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=925
+>>>>>>> 6296d11cb567131e0318a6a8ccee9c3b76eb9547
 package.numDependencies=30
 package.numTargets=17
 project.charset=UTF-8
@@ -122,7 +129,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=50
+simulation.speed=52
 target1.height=50
 target1.name=bom
 target1.showInterface=false
@@ -243,7 +250,14 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=974
 world.lastInstantiated=MyWorld
 xPosition=953
 yPosition=0
+=======
+width=1326
+world.lastInstantiated=MyWorld
+xPosition=523
+yPosition=61
+>>>>>>> 6296d11cb567131e0318a6a8ccee9c3b76eb9547
