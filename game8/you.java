@@ -18,7 +18,7 @@ public class you extends Actor
     int jumping = 0;
     boolean up_pressed = false;
     private boolean movingleft = false;
-    
+    private boolean flag_tama = false;
     
     
     public void act()
@@ -55,17 +55,13 @@ public class you extends Actor
                 getImage().mirrorHorizontally();
             }
         }
-        /*if( Greenfoot.isKeyDown( "space" ) ){
-            getWorld().addObject( new gun(), getX(), getY() );
-            if( ! movingleft ){
-                movingleft = true;
-                move(5);
+    /////gun/////
+        if( Greenfoot.isKeyDown( "space" ) ){
+            if( flag_tama == false ){
+                getWorld().addObject( new gun(), getX(), getY() );
+                flag_tama = true;
             }
-            if( movingleft ){
-                movingleft = false;
-                 move(-5);
-            }
-        }*/
+        } else flag_tama = false;
         if( Greenfoot.isKeyDown( "up" ) ){
             if( !up_pressed ){
                 up_pressed = true;

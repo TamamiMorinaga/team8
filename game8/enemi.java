@@ -43,7 +43,11 @@ public class enemi extends Actor
             }
            
         }
-    
+        
+        Actor actor = getOneIntersectingObject( gun.class );
+        if( actor != null ){
+               getWorld().removeObject( actor ); 
+        }
     
        /* setRotation(180);
         move(15);*/
