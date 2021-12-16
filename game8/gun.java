@@ -17,19 +17,17 @@ public class gun extends Actor
 
     public void act() 
     {   
-
-        if( ! movingleft ){
-            movingleft = true;
+        Actor actor = getOneIntersectingObject( you.class );
+        if( movingleft = true ){
             setRotation(0);
             move(5);
         }
-        if( movingleft ){
-            movingleft = false;
-            setRotation(-0);
-            move(5);
+        if( movingleft = false ){
+            setRotation(0);
+            move(-5);
         }
         ////enemi-gun//atari///////    
-        Actor actor = getOneIntersectingObject( enemi.class );
+        actor = getOneIntersectingObject( enemi.class );
         if( actor != null ){
             getWorld().removeObject( actor ); 
         }

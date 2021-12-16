@@ -89,25 +89,10 @@ dependency8.type=UsesDependency
 dependency9.from=gun
 dependency9.to=enemi
 dependency9.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=412
-editor.fx.0.y=127
-=======
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-height=885
-package.numDependencies=25
-package.numTargets=15
-=======
->>>>>>> 3a246f4c931053c246ab8e0c9818ec5f0bd65c29
->>>>>>> aff014d542983df144f74061bfe5284443c28d01
 height=925
 package.numDependencies=26
 package.numTargets=16
@@ -240,14 +225,5 @@ target9.y=0
 version=3.0.0
 width=1326
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=596
-yPosition=10
-=======
 xPosition=523
 yPosition=61
-<<<<<<< HEAD
-=======
->>>>>>> b5e4d4672de5c89fa5445cd01372d40902c61164
->>>>>>> 3a246f4c931053c246ab8e0c9818ec5f0bd65c29
->>>>>>> aff014d542983df144f74061bfe5284443c28d01
