@@ -12,5 +12,11 @@ public class brock extends Actor
     public void act() 
     {
        getImage().scale( 30, 30 );
+       
+       Actor actor = getOneIntersectingObject( gun.class );
+        if( actor != null ){
+               getWorld().removeObject( actor ); 
+        }
+        
     }
 }
