@@ -7,6 +7,7 @@ class.enemi2.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi3.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi4.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.gun.image=gun.png
+class.takara.image=\u5B9D\u7BB1_flip.png
 class.toge.image=\u3068\u3052.png
 class.toge2.image=\u3068\u3052.png
 class.toge3.image=\u3068\u3052.png
