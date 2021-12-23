@@ -101,19 +101,11 @@ dependency8.type=UsesDependency
 dependency9.from=MyWorld
 dependency9.to=you
 dependency9.type=UsesDependency
-<<<<<<< HEAD
 editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=1074
-editor.fx.0.y=98
-height=1047
-=======
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.width=1062
+editor.fx.0.x=651
+editor.fx.0.y=57
 height=925
->>>>>>> 6296d11cb567131e0318a6a8ccee9c3b76eb9547
 package.numDependencies=30
 package.numTargets=17
 project.charset=UTF-8
@@ -250,14 +242,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=974
-world.lastInstantiated=MyWorld
-xPosition=953
-yPosition=0
-=======
 width=1326
 world.lastInstantiated=MyWorld
 xPosition=523
 yPosition=61
->>>>>>> 6296d11cb567131e0318a6a8ccee9c3b76eb9547
