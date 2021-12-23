@@ -57,7 +57,7 @@ public class you extends Actor
         /////gun/////
         if( Greenfoot.isKeyDown( "space" ) ){
             if( flag_tama == false ){
-                getWorld().addObject( new gun(), getX(), getY() );
+                getWorld().addObject( new gun( movingleft ), getX(), getY() );
                 flag_tama = true;
                 Greenfoot.playSound("gun.mp3");
             }
