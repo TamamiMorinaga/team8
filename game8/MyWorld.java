@@ -162,9 +162,11 @@ public class MyWorld extends World
             }
         }
         
-        showTextEx( "←,→ : 移動", 300, 200, 64, false, greenfoot.Color.RED);
-        showTextEx( "↑ : ジャンプ", 300, 100, 64, false, greenfoot.Color.RED);
-        showTextEx( "space: 銃を撃つ", 300, 300, 64, false, greenfoot.Color.RED);
+        showTextEx( "←,→ : 移動", 720, 160, 64, false, greenfoot.Color.WHITE);
+        showTextEx( "↑   : ジャンプ", 785, 240, 64, false, greenfoot.Color.WHITE);
+        showTextEx( "space: 銃を撃つ", 765, 320, 64, false, greenfoot.Color.WHITE);
+        showTextEx( "Runを押すと", 700, 420, 50, false, greenfoot.Color.WHITE);
+        showTextEx( "スタートします", 780, 460, 50, false, greenfoot.Color.WHITE);
             
         
         /*int i;
@@ -211,9 +213,11 @@ public class MyWorld extends World
         timecount--;
         if( timecount == 69){
             if( main_timecount == 100){
-                 showTextEx( "", 300, 100, 64, false, greenfoot.Color.RED);
-                 showTextEx( "", 300, 200, 64, false, greenfoot.Color.RED);
-                 showTextEx( "", 300, 300, 64, false, greenfoot.Color.RED);
+                 showTextEx( "", 720, 160, 64, false, greenfoot.Color.WHITE);
+                 showTextEx( "", 785, 240, 64, false, greenfoot.Color.WHITE);
+                 showTextEx( "", 765, 320, 64, false, greenfoot.Color.WHITE);
+                 showTextEx( "", 700, 420, 50, false, greenfoot.Color.WHITE);
+                 showTextEx( "", 780, 460, 50, false, greenfoot.Color.WHITE);
             }
         }
         if( timecount == 0 ){
