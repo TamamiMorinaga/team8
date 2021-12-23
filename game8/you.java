@@ -59,6 +59,7 @@ public class you extends Actor
             if( flag_tama == false ){
                 getWorld().addObject( new gun(), getX(), getY() );
                 flag_tama = true;
+                Greenfoot.playSound("gun.mp3");
             }
         } else flag_tama = false;
         if( Greenfoot.isKeyDown( "up" ) ){
@@ -191,7 +192,7 @@ public class you extends Actor
         }  
         actor = getOneIntersectingObject( takara.class );
         if( actor != null ){
-            ((MyWorld)getWorld()).showTextEx( "GAME CLEAR", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "GAME CLEAR", 300, 200, 64, false, greenfoot.Color.YELLOW);
             Greenfoot.stop();
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
