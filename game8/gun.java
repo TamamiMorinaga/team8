@@ -14,15 +14,18 @@ public class gun extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public boolean movingleft = false;
+    public gun(boolean _m){
+        movingleft = _m;
+    }
     public void act() 
     {   
         if(! movingleft ){
             setRotation(0);
-            move(5);
+            move(7);
         }  
         if(movingleft ){
             setRotation(0);
-            move(-5);
+            move(-7);
         }
 
         ////enemi-gun//atari///////    
