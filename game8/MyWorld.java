@@ -161,6 +161,12 @@ public class MyWorld extends World
 
             }
         }
+        
+        showTextEx( "←,→ : 移動", 300, 200, 64, false, greenfoot.Color.RED);
+        showTextEx( "↑ : ジャンプ", 300, 100, 64, false, greenfoot.Color.RED);
+        showTextEx( "space: 銃を撃つ", 300, 300, 64, false, greenfoot.Color.RED);
+            
+        
         /*int i;
         int j;
         for(i = 0; i < 20; i++ ){
@@ -203,6 +209,13 @@ public class MyWorld extends World
     public void act(){
         bgm.playLoop();
         timecount--;
+        if( timecount == 69){
+            if( main_timecount == 100){
+                 showTextEx( "", 300, 100, 64, false, greenfoot.Color.RED);
+                 showTextEx( "", 300, 200, 64, false, greenfoot.Color.RED);
+                 showTextEx( "", 300, 300, 64, false, greenfoot.Color.RED);
+            }
+        }
         if( timecount == 0 ){
             main_timecount--;
             timecount=timecount+70;
