@@ -14,20 +14,19 @@ public class gun extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public boolean movingleft = false;
-
     public void act() 
     {   
-        Actor actor = getOneIntersectingObject( you.class );
-        if( movingleft = true ){
+        if(! movingleft ){
             setRotation(0);
             move(5);
-        }
-        if( movingleft = false ){
+        }  
+        if(movingleft ){
             setRotation(0);
             move(-5);
         }
+
         ////enemi-gun//atari///////    
-        actor = getOneIntersectingObject( enemi.class );
+        Actor actor = getOneIntersectingObject( enemi.class );
         if( actor != null ){
             getWorld().removeObject( actor ); 
         }
