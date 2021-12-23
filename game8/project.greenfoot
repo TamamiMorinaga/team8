@@ -99,12 +99,21 @@ dependency8.type=UsesDependency
 dependency9.from=MyWorld
 dependency9.to=you
 dependency9.type=UsesDependency
+<<<<<<< HEAD
+editor.fx.0.height=729
+editor.fx.0.width=816
+editor.fx.0.x=880
+editor.fx.0.y=82
+height=1056
+package.numDependencies=30
+=======
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=402
 editor.fx.0.y=115
 height=836
 package.numDependencies=29
+>>>>>>> 237e1dfc3751d18d7f2b736c982a711e7043f60c
 package.numTargets=17
 project.charset=UTF-8
 publish.hasSource=false
@@ -119,7 +128,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=52
+simulation.speed=53
 target1.height=50
 target1.name=bom
 target1.showInterface=false
@@ -240,7 +249,14 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
+width=1936
+world.lastInstantiated=MyWorld
+xPosition=0
+yPosition=0
+=======
 width=1399
 world.lastInstantiated=MyWorld
 xPosition=293
 yPosition=5
+>>>>>>> 237e1dfc3751d18d7f2b736c982a711e7043f60c
