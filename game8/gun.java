@@ -13,19 +13,18 @@ public class gun extends Actor
      * Act - do whatever the gun wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public boolean movingleft = false;
-
     public void act() 
     {   
         Actor actor = getOneIntersectingObject( you.class );
-        if( movingleft = true ){
+        if(actor && ! movingleft ){
             setRotation(0);
             move(5);
-        }
-        if( movingleft = false ){
+        }  
+        if(actor && movingleft ){
             setRotation(0);
             move(-5);
         }
+
         ////enemi-gun//atari///////    
         actor = getOneIntersectingObject( enemi.class );
         if( actor != null ){
