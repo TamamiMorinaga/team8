@@ -57,7 +57,7 @@ public class you extends Actor
         /////gun/////
         if( Greenfoot.isKeyDown( "space" ) ){
             if( flag_tama == false ){
-                getWorld().addObject( new gun(), getX(), getY() );
+                getWorld().addObject( new gun( movingleft ), getX(), getY() );
                 flag_tama = true;
                 Greenfoot.playSound("gun.mp3");
             }
@@ -127,6 +127,7 @@ public class you extends Actor
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "Resetを押して下さい^^", 350, 490, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
             //bgm.stop();
         }   
@@ -134,6 +135,7 @@ public class you extends Actor
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "Resetを押して下さい^^", 350, 490, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
 
             //bgm.stop();
@@ -144,6 +146,7 @@ public class you extends Actor
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "Resetを押して下さい^^", 350, 490, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
 
             //bgm.stop();
@@ -157,6 +160,7 @@ public class you extends Actor
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "Resetを押して下さい^^", 350, 490, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
 
             //bgm.stop();
@@ -172,6 +176,7 @@ public class you extends Actor
         if( actor != null ){
             //getWorld().showText( "GAMEOVER", 400,200 );
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "Resetを押して下さい^^", 350, 490, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
@@ -179,6 +184,7 @@ public class you extends Actor
         actor = getOneIntersectingObject( enemi3.class );
         if( actor != null ){
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "Resetを押して下さい^^", 350, 490, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
@@ -186,6 +192,7 @@ public class you extends Actor
         actor = getOneIntersectingObject( enemi4.class );
         if( actor != null ){
             ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "Resetを押して下さい^^", 350, 490, 64, false, greenfoot.Color.RED);
             Greenfoot.stop();
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
