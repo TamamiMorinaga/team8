@@ -153,6 +153,17 @@ public class you extends Actor
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
+    actor = getOneIntersectingObject( toge4.class );
+        if( actor != null ){
+            //getWorld().showText( "GAMEOVER", 400,200 );
+            ((MyWorld)getWorld()).showTextEx( "GAME OVER", 300, 200, 64, false, greenfoot.Color.RED);
+            ((MyWorld)getWorld()).showTextEx( "Resetを押して下さい^^", 350, 490, 64, false, greenfoot.Color.RED);
+            Greenfoot.stop();
+
+            //bgm.stop();
+        /*getWorld().showText( "grounded: "+grounded, 100, 20 );
+        getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
+    }  
      actor = getOneIntersectingObject( enemi.class );
 
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
@@ -199,7 +210,7 @@ public class you extends Actor
         }  
         actor = getOneIntersectingObject( takara.class );
         if( actor != null ){
-            ((MyWorld)getWorld()).addObject( new clear(), 200, 300);
+            ((MyWorld)getWorld()).addObject( new clear(), 500, 300);
             Greenfoot.stop();
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
