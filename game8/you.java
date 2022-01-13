@@ -192,7 +192,7 @@ public class you extends Actor
         }  
         actor = getOneIntersectingObject( takara.class );
         if( actor != null ){
-            ((MyWorld)getWorld()).showTextEx( "GAME CLEAR", 300, 200, 64, false, greenfoot.Color.YELLOW);
+            ((MyWorld)getWorld()).addObject( new clear(), 200, 300);
             Greenfoot.stop();
             /*getWorld().showText( "grounded: "+grounded, 100, 20 );
             getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
