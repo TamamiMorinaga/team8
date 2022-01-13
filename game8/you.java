@@ -59,7 +59,7 @@ public class you extends Actor
             if( flag_tama == false ){
                 getWorld().addObject( new gun( movingleft ), getX(), getY() );
                 flag_tama = true;
-                Greenfoot.playSound("gun.mp3");
+                Greenfoot.playSound("gun_3.mp3");
             }
         } else flag_tama = false;
         if( Greenfoot.isKeyDown( "up" ) ){
