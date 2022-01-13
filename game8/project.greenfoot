@@ -2,7 +2,7 @@
 class.MyWorld.image=haikei.jpg
 class.bom.image=bomb.png
 class.brock.image=\u57FA\u672C\u30D6\u30ED\u30C3\u30AF.png
-class.clear.image=tag\ (1).png
+class.clear.image=ec7716ab-141e-4281-a0df-86489cf22060\ (1).png
 class.enemi.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi2.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
 class.enemi3.image=\u30A8\u30CD\u30DF\u30FC\ \ (2).png
@@ -12,51 +12,60 @@ class.takara.image=\u5B9D\u7BB1_flip.png
 class.toge.image=\u3068\u3052.png
 class.toge2.image=\u3068\u3052.png
 class.toge3.image=\u3068\u3052.png
+class.toge4.image=\u3068\u3052.png
+class.toge5.image=\u3068\u3052.png
 class.you.image=famiconhuu2.png
 dependency1.from=MyWorld
 dependency1.to=brock
 dependency1.type=UsesDependency
-dependency10.from=gun
-dependency10.to=enemi
+dependency10.from=MyWorld
+dependency10.to=you
 dependency10.type=UsesDependency
 dependency11.from=gun
-dependency11.to=enemi2
+dependency11.to=enemi
 dependency11.type=UsesDependency
 dependency12.from=gun
-dependency12.to=enemi3
+dependency12.to=enemi2
 dependency12.type=UsesDependency
 dependency13.from=gun
-dependency13.to=enemi4
+dependency13.to=enemi3
 dependency13.type=UsesDependency
-dependency14.from=enemi4
-dependency14.to=gun
+dependency14.from=gun
+dependency14.to=enemi4
 dependency14.type=UsesDependency
-dependency15.from=enemi3
+dependency15.from=enemi4
 dependency15.to=gun
 dependency15.type=UsesDependency
-dependency16.from=enemi2
+dependency16.from=enemi3
 dependency16.to=gun
 dependency16.type=UsesDependency
-dependency17.from=enemi
+dependency17.from=enemi2
 dependency17.to=gun
 dependency17.type=UsesDependency
-dependency18.from=brock
+dependency18.from=enemi
 dependency18.to=gun
 dependency18.type=UsesDependency
-dependency19.from=you
+dependency19.from=brock
 dependency19.to=gun
 dependency19.type=UsesDependency
 dependency2.from=MyWorld
 dependency2.to=toge
 dependency2.type=UsesDependency
 dependency20.from=you
-dependency20.to=MyWorld
+dependency20.to=gun
 dependency20.type=UsesDependency
 dependency21.from=you
+<<<<<<< HEAD
 dependency21.to=clear
 dependency21.type=UsesDependency
 dependency22.from=you
 dependency22.to=brock
+=======
+dependency21.to=MyWorld
+dependency21.type=UsesDependency
+dependency22.from=you
+dependency22.to=clear
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 dependency22.type=UsesDependency
 dependency23.from=you
 dependency23.to=toge
@@ -71,6 +80,7 @@ dependency26.from=you
 dependency26.to=enemi
 dependency26.type=UsesDependency
 dependency27.from=you
+<<<<<<< HEAD
 dependency27.to=enemi2
 dependency27.type=UsesDependency
 dependency28.from=you
@@ -78,13 +88,33 @@ dependency28.to=enemi3
 dependency28.type=UsesDependency
 dependency29.from=you
 dependency29.to=enemi4
+=======
+dependency27.to=toge4
+dependency27.type=UsesDependency
+dependency28.from=you
+dependency28.to=enemi
+dependency28.type=UsesDependency
+dependency29.from=you
+dependency29.to=enemi2
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 dependency29.type=UsesDependency
 dependency3.from=MyWorld
 dependency3.to=toge2
 dependency3.type=UsesDependency
 dependency30.from=you
+<<<<<<< HEAD
 dependency30.to=takara
 dependency30.type=UsesDependency
+=======
+dependency30.to=enemi3
+dependency30.type=UsesDependency
+dependency31.from=you
+dependency31.to=enemi4
+dependency31.type=UsesDependency
+dependency32.from=you
+dependency32.to=takara
+dependency32.type=UsesDependency
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 dependency4.from=MyWorld
 dependency4.to=enemi
 dependency4.type=UsesDependency
@@ -101,8 +131,9 @@ dependency8.from=MyWorld
 dependency8.to=takara
 dependency8.type=UsesDependency
 dependency9.from=MyWorld
-dependency9.to=you
+dependency9.to=toge4
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=182
@@ -110,6 +141,15 @@ editor.fx.0.y=80
 height=836
 package.numDependencies=30
 package.numTargets=18
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=836
+package.numDependencies=32
+package.numTargets=16
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -132,7 +172,11 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
+<<<<<<< HEAD
 target10.name=enemi2
+=======
+target10.name=toge4
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=80
@@ -153,33 +197,50 @@ target12.width=80
 target12.x=0
 target12.y=0
 target13.height=50
+<<<<<<< HEAD
 target13.name=kumatyan
+=======
+target13.name=enemi
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target13.showInterface=false
 target13.type=ClassTarget
 target13.width=80
 target13.x=0
 target13.y=0
 target14.height=50
+<<<<<<< HEAD
 target14.name=potato
+=======
+target14.name=brock
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target14.showInterface=false
 target14.type=ClassTarget
 target14.width=80
 target14.x=0
 target14.y=0
 target15.height=50
+<<<<<<< HEAD
 target15.name=enemi
+=======
+target15.name=MyWorld
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target15.showInterface=false
 target15.type=ClassTarget
 target15.width=80
 target15.x=0
 target15.y=0
 target16.height=50
+<<<<<<< HEAD
 target16.name=brock
+=======
+target16.name=you
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target16.showInterface=false
 target16.type=ClassTarget
 target16.width=80
 target16.x=0
 target16.y=0
+<<<<<<< HEAD
 target17.height=50
 target17.name=MyWorld
 target17.showInterface=false
@@ -194,6 +255,8 @@ target18.type=ClassTarget
 target18.width=80
 target18.x=0
 target18.y=0
+=======
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target2.height=50
 target2.name=gun
 target2.showInterface=false
@@ -202,7 +265,11 @@ target2.width=80
 target2.x=0
 target2.y=0
 target3.height=50
+<<<<<<< HEAD
 target3.name=king
+=======
+target3.name=clear
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=80
@@ -216,42 +283,67 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
+<<<<<<< HEAD
 target5.name=takara
+=======
+target5.name=toge5
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
 target6.name=enemy
+=======
+target6.name=enemi4
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
+<<<<<<< HEAD
 target7.name=enemi4
+=======
+target7.name=enemi3
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
+<<<<<<< HEAD
 target8.name=enemi3
+=======
+target8.name=toge3
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=80
 target8.x=0
 target8.y=0
 target9.height=50
+<<<<<<< HEAD
 target9.name=toge3
+=======
+target9.name=enemi2
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-width=1399
+width=1936
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=430
 yPosition=105
+=======
+xPosition=0
+yPosition=81
+>>>>>>> 618537ccd68ff9eb5426d28d8862b436a227aa5d
