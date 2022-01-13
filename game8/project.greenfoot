@@ -99,15 +99,10 @@ dependency8.type=UsesDependency
 dependency9.from=MyWorld
 dependency9.to=you
 dependency9.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-<<<<<<< HEAD
-editor.fx.0.x=969
-editor.fx.0.y=78
-=======
-editor.fx.0.x=402
-editor.fx.0.y=115
->>>>>>> ce312490feb6b67ae8b77ad1181415360d974d10
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=836
 package.numDependencies=29
 package.numTargets=17
