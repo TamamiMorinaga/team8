@@ -16,7 +16,7 @@ import java.awt.Graphics2D;
  */
 public class MyWorld extends World
 {
-    private int main_timecount = 60;
+    private int main_timecount = 50;
     private int timecount = 70;
     
     class TextLabelEx extends TextLabel
@@ -215,7 +215,7 @@ public class MyWorld extends World
         bgm.playLoop();
         timecount--;
         if( timecount == 69){
-            if( main_timecount == 60){
+            if( main_timecount == 50){
                  showTextEx( "", 720, 160, 64, false, greenfoot.Color.WHITE);
                  showTextEx( "", 785, 240, 64, false, greenfoot.Color.WHITE);
                  showTextEx( "", 765, 320, 64, false, greenfoot.Color.WHITE);
