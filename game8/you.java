@@ -140,7 +140,7 @@ public class you extends Actor
             Greenfoot.stop();
 
             //bgm.stop();
-            //getWorld().bgm.stop();
+            //
         /*getWorld().showText( "grounded: "+grounded, 100, 20 );
         getWorld().showText( "jumping:  "+jumping, 100, 50 );*/
     }  
